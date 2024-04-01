@@ -14,6 +14,11 @@
 		4EC4E3302BBB1352001D2CBF /* BodyTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E32F2BBB1352001D2CBF /* BodyTrackingTests.swift */; };
 		4EC4E33A2BBB1352001D2CBF /* BodyTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E3392BBB1352001D2CBF /* BodyTrackingUITests.swift */; };
 		4EC4E33C2BBB1352001D2CBF /* BodyTrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E33B2BBB1352001D2CBF /* BodyTrackingUITestsLaunchTests.swift */; };
+		4EC4E3492BBB138A001D2CBF /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E3482BBB138A001D2CBF /* BodySkeleton.swift */; };
+		4EC4E34B2BBB13A9001D2CBF /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E34A2BBB13A9001D2CBF /* Bones.swift */; };
+		4EC4E34D2BBB13D3001D2CBF /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E34C2BBB13D3001D2CBF /* ARViewContainer.swift */; };
+		4EC4E34F2BBB13F1001D2CBF /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E34E2BBB13F1001D2CBF /* SkeletonBone.swift */; };
+		4EC4E3512BBB1402001D2CBF /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4E3502BBB1402001D2CBF /* SkeletonJoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		4EC4E3352BBB1352001D2CBF /* BodyTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC4E3392BBB1352001D2CBF /* BodyTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingUITests.swift; sourceTree = "<group>"; };
 		4EC4E33B2BBB1352001D2CBF /* BodyTrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EC4E3482BBB138A001D2CBF /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+		4EC4E34A2BBB13A9001D2CBF /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		4EC4E34C2BBB13D3001D2CBF /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		4EC4E34E2BBB13F1001D2CBF /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		4EC4E3502BBB1402001D2CBF /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +104,14 @@
 		4EC4E31D2BBB1350001D2CBF /* BodyTracking */ = {
 			isa = PBXGroup;
 			children = (
-				4EC4E31E2BBB1350001D2CBF /* AppDelegate.swift */,
-				4EC4E3202BBB1350001D2CBF /* ContentView.swift */,
 				4EC4E3222BBB1351001D2CBF /* Assets.xcassets */,
+				4EC4E31E2BBB1350001D2CBF /* AppDelegate.swift */,
+				4EC4E34C2BBB13D3001D2CBF /* ARViewContainer.swift */,
+				4EC4E3482BBB138A001D2CBF /* BodySkeleton.swift */,
+				4EC4E34A2BBB13A9001D2CBF /* Bones.swift */,
+				4EC4E3202BBB1350001D2CBF /* ContentView.swift */,
+				4EC4E3502BBB1402001D2CBF /* SkeletonJoint.swift */,
+				4EC4E34E2BBB13F1001D2CBF /* SkeletonBone.swift */,
 				4EC4E3242BBB1351001D2CBF /* Preview Content */,
 			);
 			path = BodyTracking;
@@ -258,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC4E3212BBB1350001D2CBF /* ContentView.swift in Sources */,
+				4EC4E34B2BBB13A9001D2CBF /* Bones.swift in Sources */,
+				4EC4E34F2BBB13F1001D2CBF /* SkeletonBone.swift in Sources */,
 				4EC4E31F2BBB1350001D2CBF /* AppDelegate.swift in Sources */,
+				4EC4E3492BBB138A001D2CBF /* BodySkeleton.swift in Sources */,
+				4EC4E3512BBB1402001D2CBF /* SkeletonJoint.swift in Sources */,
+				4EC4E34D2BBB13D3001D2CBF /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

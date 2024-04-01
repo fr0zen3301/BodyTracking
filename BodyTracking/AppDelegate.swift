@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BodyTracking
+//  Virtual Avatar
 //
-//  Created by Maratov Khamidullojon on 4/2/24.
+//  Created by Maratov Khamidullojon on 3/13/24.
 //
 
 import UIKit
